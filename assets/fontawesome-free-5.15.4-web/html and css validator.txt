@@ -1,0 +1,2 @@
+html validator: validator.w3.org
+css valadator:	jigsaw.w3.org/css-validator
