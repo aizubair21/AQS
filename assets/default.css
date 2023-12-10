@@ -78,7 +78,7 @@ h6,
 p,
 .p {
     font-size: 18px;
-    line-height: 30px!important;
+    line-height: 24px !important;
 }
 
 /* font settings end */
@@ -91,9 +91,11 @@ p,
 .font_white {
     color: var(--aq-white);
 }
-.font_primary{
-    color: var(--aq-dark)!important;
+
+.font_primary {
+    color: var(--aq-dark) !important;
 }
+
 .hr {
     width: 100%;
     height: .3px;

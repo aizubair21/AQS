@@ -126,22 +126,118 @@ nav {
     .batch_title {
         .icon {
             /* background-color: #000; */
-            display: inline-block;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
             border-radius: 50%;
-            border: 1px solid var(--aq-dark);
+            /* border: 1px solid var(--aq-dark); */
+            box-shadow: 0px 0px 5px var(--aq-shadow);
             margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+            /* background-color: var(--aq-dark); */
+            width: 100px;
+            height: 100px;
+
+            .inner {
+                position: absolute;
+                bottom: -10px;
+                left: 50%;
+                transform: translatex(-50%);
+                background-color: var(--aq-white);
+                border-radius: 50%;
+                /* border: 1px solid var(--aq-dark); */
+                font-size: 18px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0px 0px 5px var(--aq-shadow);
+                color: var(--aq-dark);
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: 0px;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 360px;
+                height: 1px;
+                background-color: var(--aq-shadow);
+                z-index: -1;
+            }
+
+
         }
-        
-        .title{
-            color: var(--aq-dark)!important;
+
+        .icon img {
+            width: 80px;
+            background-color: var(--aq-dark);
+            border-radius: 50%;
+            rotate: 90deg;
+        }
+
+        .title {
+            color: var(--aq-dark) !important;
+        }
+    }
+
+    .batch_info {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 25px 0px;
+
+        .info_card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+
+
+            .icon {
+                min-width: 70px;
+                width: 70px;
+                min-height: 70px;
+                height: 70px;
+                border-radius: 30%;
+                /* background-color: var(--aq-white); */
+                box-shadow: 0px 0px 5px var(--aq-shadow);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                rotate: 45deg;
+
+                .inner {
+                    /* background-color: var(--aq-dark); */
+                    color: var(--aq-white);
+                    font-size: 28px;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50px;
+                    rotate: -45deg;
+                }
+
+                .inner img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .card_text {
+                margin-left: 25px;
+            }
         }
     }
 }
 
-#home_batch {
+#shahih-tajwid {
     padding: 25px 0px;
     margin: 25px 0px;
-    box-shadow: 0px 0px 5px var(--aq-shadow);
+    /* box-shadow: 0px 0px 5px var(--aq-shadow); */
 
     .h4 {
         font-family: "kohinor" !important;
