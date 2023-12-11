@@ -56,21 +56,25 @@ h1,
 h2,
 .h2 {
     font-size: 50px;
+    line-height: 60px;
 }
 
 h3,
 .h3 {
     font-size: 40px;
+    line-height: 50px;
 }
 
 h4,
 .h4 {
     font-size: 28px;
+    line-height: 38px;
 }
 
 h5,
 .h5 {
     font-size: 25px;
+    line-height: 33px;
 }
 
 h6,
@@ -78,7 +82,7 @@ h6,
 p,
 .p {
     font-size: 18px;
-    line-height: 24px !important;
+    line-height: 30px !important;
 }
 
 /* font settings end */
@@ -107,7 +111,7 @@ p,
 }
 
 ._black {
-    background-color: var(--aq-gray);
+    background-color: var(--aq-shadow);
 }
 
 .vr {
@@ -172,6 +176,7 @@ p,
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -186,7 +191,7 @@ p,
 
 /* common heading  start */
 .common_heading {
-    padding: 50px 0px
+    padding: 25px 0px
 }
 
 /* common heading  end */
