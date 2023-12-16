@@ -125,6 +125,13 @@ p,
     font-weight: 900px;
     font-size: 20px;
     padding: 10px 25px;
+    box-shadow: 0px 0px 15px var(--aq-shadow);
+    transition: all linear 0.3s;
+
+    &:hover {
+        box-shadow: 0px 0px 25px var(--aq-shadow);
+        transition: all linear 0.3s;
+    }
 }
 
 .btn_primary {
@@ -132,6 +139,7 @@ p,
     color: var(--aq-white);
 
     &:hover {
+        box-shadow: 0px 0px 25px var(--aq-shadow);
         color: var(--aq-white);
     }
 }
@@ -157,8 +165,8 @@ p,
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
-    background: 0 0;
-    color: inherit;
+    background: var(--aq-shadow);
+    color: var(--aq-dark);
     border: none;
     padding: 10px !important;
     border-radius: 50%;
@@ -177,6 +185,7 @@ p,
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
+    display: inline-block;
 }
 
 .owl-theme .owl-dots .owl-dot span {

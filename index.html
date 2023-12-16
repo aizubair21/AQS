@@ -44,19 +44,19 @@
     <!-- top nav end  -->
 
     <!-- home banner start  -->
-    <section id="home_banner" class="banner owl-carousel owl-theme">
-        <div class="banner wow fadeIn">
+    <section id="home_banner" class=" owl-carousel owl-theme">
+        <div class="banner_img wow fadeIn">
             <img src="assets/image/banner_1.png" alt="">
         </div>
-        <div class="banner wow fadeIn">
+        <div class="banner_img wow fadeIn">
             <img src="assets/image/banner_2.png" alt="">
         </div>
-        <div class="banner wow fadeIn">
+        <div class="banner_img wow fadeIn">
             <img src="assets/image/banner_3.png" alt="">
         </div>
-        <div class="banner wow fadeIn">
+        <!-- <div class="banner_img wow fadeIn">
             <img src="assets/image/banner_5.png" alt="">
-        </div>
+        </div> -->
     </section>
     <!-- home banner end -->
 
@@ -64,18 +64,22 @@
     <section id="home_our_cources" class="">
         <div class="container">
             <div class="row d-flex justify-content-center text-center">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="common_heading">
                         <img src="assets/image/title-arabic-white.png" alt="">
                         <h3 class="wow animated fadeInDown">এসো কুরান শিখি</h3>
-                        <p class="wow animated fadeInDown">এসো কুরান শিখি অনলাইন ভিত্তিক মহিলা কুরান শিক্ষা কার্যক্রম।
-                            আমাদের
-                            কার্যক্রম সুধুমাত্র
-                            মহিলাদের জন্য। </p>
+                        <p class="wow animated fadeInDown">এসো কুরান শিখি অনলাইন ভিত্তিক কুরান শিক্ষা কার্যক্রম। আমাদের
+                            অনেক মা ও বোনেরা আছেন যাহারা কুরান দেখে-দেখে পড়তে পারলেও তাজবীদের নীয়মকানুন অনুসরন করে সহীহ
+                            ও শুদ্ধরুপে পড়তে পারেন না। যারা কুরানকে সহীহ ও শুদ্ধরুপে পড়তে চান তাদের জন্যই আমাদের আয়োজন।
+                            আমাদের কার্যক্রম সুধুমাত্র <span> মহিলা </span> ও <span> শিশুদের </span> জন্য। </p>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
+
         <!-- <div class="hr _default"></div> -->
         <div class="container">
 
@@ -110,6 +114,8 @@
                             </p>
                         </div>
                     </a>
+                </div>
+                <div class="col-md-6">
                     <a href="#" class="cources wow animated fadeIn">
                         <div class="icon">
                             <div class="inner">
@@ -125,8 +131,6 @@
                             </p>
                         </div>
                     </a>
-                </div>
-                <div class="col-md-6">
                     <a href="#" class="cources wow animated fadeIn">
                         <div class="icon">
                             <div class="inner">
@@ -142,18 +146,20 @@
                             </p>
                         </div>
                     </a>
-                    <a href="#" class="cources wow animated fadeIn">
+                </div>
+                <div class="col-12">
+                    <a href="#" class="cources cource_muallima wow animated fadeIn">
                         <div class="icon">
                             <div class="inner">
                                 ০৫
                             </div>
                         </div>
                         <div class="desc">
-                            <h4>মোয়াল্লিমা প্রশিক্ষন কোর্স</h4>
-                            <p> এসো কুরান শিখি অনলাইন ভিত্তিক মহিলা কুরান শিক্ষা কার্যক্রম। আমাদের কার্যক্রম সুধুমাত্র
+                            <h4 class="h4">মোয়াল্লিমা প্রশিক্ষন কোর্স</h4>
+                            <p class="p"> এসো কুরান শিখি অনলাইন ভিত্তিক মহিলা কুরান শিক্ষা কার্যক্রম। আমাদের কার্যক্রম
+                                সুধুমাত্র
                                 মহিলাদের জন্য।
-                                <img class="" src="assets/image/underline-white.png" alt="">
-
+                                <img class="img" src="assets/image/underline-white.png" alt="">
                             </p>
                         </div>
                     </a>
@@ -182,7 +188,7 @@
     <!-- home login end  -->
 
     <!-- home short view start  -->
-    <section id="home_short_view">
+    <section id="home_short_view" class="mx-5 m-md-0">
         <div class="common_heading">
             <div class="container short">
                 <div class="shorts">
@@ -203,11 +209,15 @@
         <!-- follow us start  -->
         <div id="follow_us">
             <div class="container">
-                <div class="row m-0 follow_div">
-                    <div class="col-md-3">
-                        <img class="img" src="assets/image/facebook.png" alt="">
+                <div class="row m-0 follow_div ">
+                    <div class="col-md-3 left">
+                        <div class="icon">
+                            <div class="inner">
+                                <img class="img" src="assets/image/facebook.png" alt="">
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-9 right align-items-center text-center text-md-start">
                         <h5 class="h5">
                             “এসো কুরান শিখি”র আসন্ন যে কোন কোর্স ও অন্যান্ন বিষয় সম্পর্কে সাম্প্রতিক তথ্য জানার জন্য
                             এখনই
@@ -229,34 +239,43 @@
     <!-- <div class="hr _black"></div> -->
     <!-- achievement slider start  -->
     <section id="home_achievement">
-        <div class="text-center">
+        <div class="text-center container">
+            <div class="row m-0">
+                <div class="col-md-6 d-flex align-items-center">
 
-            <div class="common_heading">
-                <div class="icon">
-                    <div class="inner">
-                        <img src="assets/image/arrow-right-white.png" alt="">
+                    <div class="common_heading">
+                        <div class="icon">
+                            <div class="inner">
+                                <img src="assets/image/arrow-right-white.png" alt="">
+                            </div>
+                        </div>
+                        <h2 class="h2">আমাদের অর্জন</h2>
+                        <p class="text-light m-0"> অনলাইন মুয়াল্লিামা প্রশিক্ষণ কোর্সটি সফলভালে সমাপ্ত করায়
+                            <span>“সফলতার
+                                সনদ”</span>
+                            প্রদান করা
+                            হয়। এই মর্মে সনদ প্রদান করা হয় যে, তাহারা প্রত্যেকে প্রশিক্ষত মুয়াল্লিমা
+                            এবং যে
+                            কোন মুয়াল্লিমা ও সহিহ
+                            কুরান শিক্ষা কোর্স পরিচালনা করার জন্য প্রস্তুত।
+                        </p>
+
                     </div>
+
                 </div>
-                <h2 class="h2">আমাদের অর্যন</h2>
-                <p class="text-light m-0"> অনলাইন মুয়াল্লিামা প্রশিক্ষণ কোর্সটি সফলভালে সমাপ্ত করায় <span>“সফলতার
-                        সনদ”</span>
-                    প্রদান করা
-                    হয়।
-                </p>
-                <p class="text-light m-0">এই মর্মে সনদ প্রদান করা হয় যে, তাহারা প্রত্যেকে প্রশিক্ষত মুয়াল্লিমা এবং যে
-                    কোন মুয়াল্লিমা ও সহিহ
-                    কুরান শিক্ষা কোর্স পরিচালনা করার জন্য প্রস্তুত।
-                </p>
+                <div class="col-md-6">
 
+                    <div class="owl-carousel owl-theme px-3" id="certificate_carousel">
+                        <img src="assets/image/certificate (1).png" alt="">
+                        <img src="assets/image/certificate (2).png" alt="">
+                        <img src="assets/image/certificate (3).png" alt="">
+                        <img src="assets/image/certificate (4).png" alt="">
+                        <img src="assets/image/certificate (5).png" alt="">
+                    </div>
+
+                </div>
             </div>
 
-            <div class="owl-carousel owl-theme px-3" id="certificate_carousel">
-                <img src="assets/image/certificate (1).png" alt="">
-                <img src="assets/image/certificate (2).png" alt="">
-                <img src="assets/image/certificate (3).png" alt="">
-                <img src="assets/image/certificate (4).png" alt="">
-                <img src="assets/image/certificate (5).png" alt="">
-            </div>
         </div>
         </div>
     </section>
@@ -290,7 +309,7 @@
         <div class="batch_info">
             <div class="container">
                 <div class="row m-0 d-flex justify-content-center">
-                    <div class="col-md-6">
+                    <div class="col-md-10 col-lg-8 justify-content-start">
 
                         <div class="info_card">
                             <div class="icon">
@@ -361,7 +380,7 @@
         <div class="batch_info">
             <div class="container">
                 <div class="row m-0 d-flex justify-content-center">
-                    <div class="col-md-6">
+                    <div class="col-md-10 col-lg-8 justify-content-start">
 
                         <div class="info_card">
                             <div class="icon">
@@ -411,7 +430,7 @@
         <div class="container text-center">
             <div class="batch_title">
                 <div class="icon">
-                    <img src="assets/image/arrow-right-white.png" alt="">
+                    <img src="assets/image/hifz-white.png" alt="">
                     <div class="inner"> ০৩ </div>
                 </div>
 
@@ -432,7 +451,7 @@
         <div class="batch_info">
             <div class="container">
                 <div class="row m-0 d-flex justify-content-center">
-                    <div class="col-md-6">
+                    <div class="col-md-10 col-lg-8 justify-content-start">
 
                         <div class="info_card">
                             <div class="icon">
@@ -477,12 +496,12 @@
 
     <div class="hr _black"></div>
 
-    <section id="ampara-hifz" class="batch">
+    <section id="significant-sura" class="batch">
 
         <div class="container text-center">
             <div class="batch_title">
                 <div class="icon">
-                    <img src="assets/image/arrow-right-white.png" alt="">
+                    <img src="assets/image/significant-sura-white.png" alt="">
                     <div class="inner"> ০৪ </div>
                 </div>
 
@@ -503,7 +522,7 @@
         <div class="batch_info">
             <div class="container">
                 <div class="row m-0 d-flex justify-content-center">
-                    <div class="col-md-6">
+                    <div class="col-md-10 col-lg-8 justify-content-start">
 
                         <div class="info_card">
                             <div class="icon">
@@ -548,7 +567,7 @@
 
     <div class="hr _black"></div>
 
-    <section id="ampara-hifz" class="batch">
+    <section id="muwallima-cources" class="batch">
 
         <div class="container text-center">
             <div class="batch_title">
@@ -574,7 +593,7 @@
         <div class="batch_info">
             <div class="container">
                 <div class="row m-0 d-flex justify-content-center">
-                    <div class="col-md-6">
+                    <div class="col-md-10 col-lg-8 justify-content-start">
 
                         <div class="info_card">
                             <div class="icon">
@@ -617,6 +636,139 @@
 
     </section>
     <!-- batch info first end  -->
+
+
+    <!-- home FAQ start  -->
+    <section id="home_faq">
+        <div class="container">
+            <div class="row m-0 align-items-center">
+                <div class="col-md-6 ">
+
+                    <div class="common_heading text-center">
+                        <div class="icon mb-3">
+                            <div class="inner">
+                                <img src="assets/image/question-mark-primary.png" alt="">
+                            </div>
+                        </div>
+                        <h2> সচারচর জিজ্ঞাস্য </h2>
+                        <p> আপনার যে কোন জিজ্ঞাসা আমাদের জিজ্ঞেস করার পূবে এখানে সন্নিবেশিত প্রশ্নোত্তর গুলো একবার দেখে
+                            নিন। এখানে আপনার অনেক প্রশ্নের উত্তর পেয়ে যাবেন। এতে আপনার সময় অপচয় কম হবে। </p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 align-self-center">
+
+                    <div class="faq">
+                        <div class="faqs faqs_open">
+                            <div class="faq_q">
+                                <div class="left h5">
+                                    <div class="icon">
+                                        ?
+                                        <!-- <img src="assets/image/question-mark-white.png" width="50" height="50" style="boject-fit:content" alt=""> -->
+                                    </div>
+                                    <div class="q">
+                                        আমি কুরান পড়তে পাড়ি ।
+                                    </div>
+                                </div>
+                                <div class="right"></div>
+                            </div>
+                            <p class="faq_a">
+                                আপনার যে কোন জিজ্ঞাসা আমাদের জিজ্ঞেস করার পূবে নিন্মে সন্নিবেশিত প্রশ্নোত্তর গুলো একবার
+                                দেখে
+                                নিন।
+                                এখানে আপনার অনেক প্রশ্নের উত্তর পেয়ে যাবে। এতে আপনার সময় অপচয় কম হবে। </p>
+                        </div>
+
+                        <div class="faqs">
+                            <div class="faq_q">
+                                <div class="left h5">
+                                    <div class="icon">
+                                        ?
+                                        <!-- <img src="assets/image/question-mark-white.png" width="50" height="50" style="boject-fit:content" alt=""> -->
+                                    </div>
+                                    <div class="q">
+                                        আমি কুরান পড়তে পাড়ি ।
+                                    </div>
+                                </div>
+                                <div class="right"></div>
+                            </div>
+                            <p class="faq_a">
+                                আপনার যে কোন জিজ্ঞাসা আমাদের জিজ্ঞেস করার পূবে নিন্মে সন্নিবেশিত প্রশ্নোত্তর গুলো একবার
+                                দেখে
+                                নিন।
+                                এখানে আপনার অনেক প্রশ্নের উত্তর পেয়ে যাবে। এতে আপনার সময় অপচয় কম হবে। </p>
+                        </div>
+
+                        <div class="faqs">
+                            <div class="faq_q">
+                                <div class="left h5">
+                                    <div class="icon">
+                                        ?
+                                        <!-- <img src="assets/image/question-mark-white.png" width="50" height="50" style="boject-fit:content" alt=""> -->
+                                    </div>
+                                    <div class="q">
+                                        আমি কুরান পড়তে পাড়ি ।
+                                    </div>
+                                </div>
+                                <div class="right"></div>
+                            </div>
+                            <p class="faq_a">
+                                আপনার যে কোন জিজ্ঞাসা আমাদের জিজ্ঞেস করার পূবে নিন্মে সন্নিবেশিত প্রশ্নোত্তর গুলো একবার
+                                দেখে
+                                নিন।
+                                এখানে আপনার অনেক প্রশ্নের উত্তর পেয়ে যাবে। এতে আপনার সময় অপচয় কম হবে। </p>
+                        </div>
+
+                        <div class="faqs">
+                            <div class="faq_q">
+                                <div class="left h5">
+                                    <div class="icon">
+                                        ?
+                                        <!-- <img src="assets/image/question-mark-white.png" width="50" height="50" style="boject-fit:content" alt=""> -->
+                                    </div>
+                                    <div class="q">
+                                        আমি কুরান পড়তে পাড়ি ।
+                                    </div>
+                                </div>
+                                <div class="right"></div>
+                            </div>
+                            <p class="faq_a">
+                                আপনার যে কোন জিজ্ঞাসা আমাদের জিজ্ঞেস করার পূবে নিন্মে সন্নিবেশিত প্রশ্নোত্তর গুলো একবার
+                                দেখে
+                                নিন।
+                                এখানে আপনার অনেক প্রশ্নের উত্তর পেয়ে যাবে। এতে আপনার সময় অপচয় কম হবে। </p>
+                        </div>
+
+                        <div class="faqs">
+                            <div class="faq_q">
+                                <div class="left h5">
+                                    <div class="icon">
+                                        ?
+                                        <!-- <img src="assets/image/question-mark-white.png" width="50" height="50" style="boject-fit:content" alt=""> -->
+                                    </div>
+                                    <div class="q">
+                                        আমি কুরান পড়তে পাড়ি ।
+                                    </div>
+                                </div>
+                                <div class="right"></div>
+                            </div>
+                            <p class="faq_a">
+                                আপনার যে কোন জিজ্ঞাসা আমাদের জিজ্ঞেস করার পূবে নিন্মে সন্নিবেশিত প্রশ্নোত্তর গুলো একবার
+                                দেখে
+                                নিন।
+                                এখানে আপনার অনেক প্রশ্নের উত্তর পেয়ে যাবে। এতে আপনার সময় অপচয় কম হবে। </p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- home FAQ end  -->
 </body>
 
 
@@ -633,47 +785,34 @@
 <!-- magnific popup  -->
 <script src="assets/Magnific-Popup-1.1.0/Magnific-Popup-1.1.0/dist/jquery.magnific-popup.min.js"></script>
 
+<!-- main jsfile  -->
+<script src="main.js"></script>
+
 <script>
-    $(document).onload(
+    $("#home_banner").owlCarousel({
+        items: 1,
+        center: true,
+        nav: true,
+        dots: true,
+        loop: true,
+        autoplay: true,
 
-        $("#home_banner").owlCarousel({
-            items: 1,
-            center: true,
-            nav: true,
-            dots: true,
-            loop: true,
-            autoplay: true,
-            responsive: {
-                768: {
-                    items: 2
-                }
-            },
-            margin: 50,
-        }),
+        margin: 50,
+    });
 
-        $("#certificate_carousel").owlCarousel({
-            items: 1,
-            center: true,
-            dots: true,
-            loop: true,
-            nav: true,
-            autoplay: true,
-            margin: 25,
-            animateOut: 'slideOutDown',
-            animateIn: 'flipInX',
-            responsive: {
-                768: {
-                    items: 3
-                },
-                1400: {
-                    items: 4
-                }
-            },
-            margin: 20,
-        }),
-        $(".wow").init(),
-
-    );
+    $("#certificate_carousel").owlCarousel({
+        items: 1,
+        center: true,
+        dots: true,
+        loop: true,
+        nav: true,
+        autoplay: true,
+        margin: 25,
+        animateOut: 'slideOutDown',
+        animateIn: 'flipInX',
+        margin: 20,
+    });
+    $(".wow").init();
 </script>
 
 </html>
